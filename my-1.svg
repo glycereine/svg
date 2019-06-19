@@ -1,0 +1,51 @@
+<svg class="logo" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<defs>
+		<style>
+			.st0{fill:#27AAE1;}
+			.st1{font-family:'TimesNewRomanPS-BoldMT';}
+			.st2{font-size:68.7025px;font-weight: 700;}
+			.st3{font-size:27.7978px;font-weight: 700;letter-spacing: 0.1em;}
+			.st4{letter-spacing:2;}
+			.st5{fill:#FFFFFF;}
+			.st6{fill:#8DC63F;}
+
+			svg * {
+				transition: opacity 100ms ease-in-out;
+			}
+
+			.logo #main {
+				opacity: 0;
+			}
+			@media only screen and (min-width: 767px) {
+				.logo #main {
+					opacity: 1;
+				}
+				.logo #mobile {
+					opacity: 0;
+				}
+			}
+		</style>
+	</defs>
+	<symbol id="ico">
+		<path class="st0" d="M52,27.5h-0.2v0.1C51.9,27.5,51.9,27.5,52,27.5z"/>
+		<path class="st0" d="M25.8,1.6v25.9H-0.1v26h12.5c2.4-2.8,6.8-7.4,13.4-12.2c6.5-4.8,15.1-9.8,26-13.7v-0.1 V1.6H25.8z"/>
+		<path class="st5" d="M51.8,31.7c2-1.7,3.8-3.1,5.3-4.2H52c-0.1,0-0.1,0-0.2,0.1V31.7z"/>
+		<polygon class="st5" points="42.1,44.5 39.4,37.6 37.5,44.8 37.5,37.3 33.1,43.4 35.7,36.4 29.5,40.5 
+		34.5,34.9 27.2,36.4 33.8,33.1 26.5,31.9 33.9,31.1 27.5,27.3 34.7,29.3 30,23.5 36,27.9 33.8,20.8 37.8,27.1 38.3,19.7 
+		39.7,27 42.9,20.3 41.6,27.6 47,22.5 43.1,28.8 50,26 44.1,30.5 51.5,30.4 44.4,32.4 51.4,35 44,34.3 49.6,39.2 42.9,36 
+		46.3,42.6 41.3,37.1"/>
+		<path id="XMLID_600_" class="st6" d="M57.1,27.5c-1.5,1.1-3.3,2.5-5.3,4.2c-6.1,5.1-14.1,12.6-20.5,21.8c-2,2.9-3.9,5.9-5.5,9.1
+		v16.8h26V53.5h25.9v-26H57.1z"/>
+	</symbol>
+	<symbol id="text">
+		<text id="XMLID_622_" transform="matrix(1.0039 0 0 1 92.2502 47.1621)" class="st0 st1 st2">Trussville</text>
+		<text transform="matrix(0.9773 0 0 1 96.3059 78.4141)" class="st0 st1 st3 st4">HEALTH &amp; REHAB</text>
+	</symbol>
+	<svg id="main" viewBox="0 0 381 81">
+		<use xlink:href="#ico" width="100%" />
+		<use xlink:href="#text" width="100%" />
+	</svg>
+	<svg id="mobile" viewBox="0 0 81 81">
+		<use xlink:href="#ico" width="100%" x="0" y="0"></use>
+	</svg>
+</svg>
